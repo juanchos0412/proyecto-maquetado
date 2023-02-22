@@ -1,0 +1,85 @@
+/*=============== NEW ARRIVALS ===============*/
+.new__container {
+  padding-top: 1rem;
+}
+
+.new__img {
+  width: 120px;
+  margin-bottom: $mb-0-5;
+  transition: 0.3s;
+}
+
+.new__content {
+  position: relative;
+  background: $bg-wh-color;
+  color: $text-color-black;
+  width: 242px;
+  padding: 2rem 0 1.5rem 0;
+  border-radius: 0.75rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.new__tag {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  background-color: $first-color;
+  color: $title-color;
+  font-size: $small-font-size;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.new__title {
+  font-size: $normal-font-size;
+  color: $text-color-black;
+  font-weight: $font-medium;
+}
+
+.new__subtitle {
+  display: block;
+  color: $text-color-black;
+  font-size: $small-font-size;
+  margin-bottom: $mb-0-5;
+}
+
+.new__prices {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: $text-color-black;
+}
+
+.new__price {
+  font-weight: $font-medium;
+  color: $text-color-black;
+}
+
+.new__discount {
+  color: $first-color;
+  font-size: $smaller-font-size;
+  text-decoration: line-through;
+  font-weight: $font-medium;
+}
+
+.new__button {
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 0.25rem 0.25rem 0.75rem 0.25rem;
+  position: absolute;
+  bottom: 0;
+  right: -3rem;
+}
+
+.new__icon {
+  font-size: 1.25rem;
+}
+
+.new__content:hover .new__img {
+  transform: translateY(-0.5rem);
+}
+
+.new__content:hover .new__button {
+  right: 0;
+}
